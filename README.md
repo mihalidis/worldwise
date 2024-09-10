@@ -17,7 +17,7 @@ Worldwise is a travel planning app that allows you to search for countries and v
 ## Technologies Used
 
 - React
-- Tailwind CSS
+- Css Modules
 - React Router
 
 ## Installation
