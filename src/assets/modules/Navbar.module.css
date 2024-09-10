@@ -1,0 +1,76 @@
+.navbar {
+  background-color: #4D4E51;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.globeImage {
+  width: 32px;
+  height: 32px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 32px;
+  width: 32px;
+  color: #3b82f6;
+}
+
+.appName {
+  margin-left: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: #1f2937;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+:global(.active) {
+  color: #000;
+}
+
+.link:hover {
+  color: #000;
+}
+
+.loginButton {
+  margin-left: 1rem;
+  background-color: #00C56A;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: #2B875E;
+}
